@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 app.get("/", (req, res) => {
-  res.send("Welcome to backend!");
+  res.send("Backend created sucessfully!");
 });
 
 
@@ -25,4 +25,5 @@ app.post("/login", (req, res) => {
 
 app.listen(5000, ()=>{
   console.log("Server running on http://localhost:5000");
+
 });
